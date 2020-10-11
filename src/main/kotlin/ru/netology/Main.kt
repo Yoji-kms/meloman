@@ -1,14 +1,16 @@
 package ru.netology
 
 fun main() {
-    val currentPayment = 1000
-    val prevPaymentSum = 100000
+    val currentPayment = 100
+    val prevPaymentSum = 10_0001
     val musicLover = true
 
     val discount = discount(currentPayment, prevPaymentSum, musicLover)
 
     println("Current payment: $currentPayment")
     println("Discount: $discount")
+    val currentPaymentWihtDiscount = currentPayment - discount
+    println("Current payment with discount: $currentPaymentWihtDiscount")
 }
 
 fun discount(currentPayment: Int, prevPaymentSum: Int, musicLover: Boolean): Double {

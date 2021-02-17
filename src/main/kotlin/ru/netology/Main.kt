@@ -9,8 +9,8 @@ fun main() {
 
     println("Current payment: $currentPayment")
     println("Discount: $discount")
-    val currentPaymentWihtDiscount = currentPayment - discount
-    println("Current payment with discount: $currentPaymentWihtDiscount")
+    val currentPaymentWithDiscount = currentPayment - discount
+    println("Current payment with discount: $currentPaymentWithDiscount")
 }
 
 fun discount(currentPayment: Int, prevPaymentSum: Int, musicLover: Boolean): Double {
